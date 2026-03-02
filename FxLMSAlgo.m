@@ -34,25 +34,49 @@ assert(length(x) == length(y), 'Input and desired signals must have the same len
 
 % ==================================================================================
 
+% ** Variable Initialization ** 
+% =================================================================================
+
+% the variables are initialized at zero because we at first assume that the noise is silent 
+% we cant make assumptions as to what the noise would sound like so, as it might 
+% accidentally make the noise cancellation louder 
+
 Sy = zeros(size(y));
-e = zeros(size(y);
+e = zeros(size(y));
 Wx = zeros(L, 1);
 Ww = zeros(L, 1);
 Wy = zeros(size(y));
-Sx = zeros(szie(Sw)); 
+Sx = zeros(size(Sw)); 
+
+% Shy = S hat of y is the real world equivalnce of sound traveling through
+% wires and speakers before it hits your ears 
 Shy = zeros(L, 1); 
+
+% =================================================================================
+
 
 % ** ALGORITHM **  
 
-for n = 1:length(y)
-    Wx = [x(n); Wx(1:L-1)];
-    Wy(n) = Wx'*Wx; 
+for n = 1:length(y)                   %NOTE: ^T = Transpose for matrix, or ' (apostrophe is symbol for transpose in matlab)
+    Wx = [x(n); Wx(1:L-1)];           %builds the input buffer, shifts x(n) into a length-L 
+                                      % Vector: [x(n), x(n-1), ... x(n-L+1)^T]
+
+    Wy(n) = Wx'*Wx;                   %PRIMARY FILTER OUPUT; THIS IS JUST y(n) = Xn*W' (W transposed); 
+                                      %Ww is the adaptive filter weight
+                                      %being learned by the algorithm 
+
     Sx = [Wy(n); Sx(1:length(Sx)-1)]; 
     Sy(n) = Sw'*Sx; 
     Shx = [x(n); Shx(1:L-1)];
     Shy = [Shw'*Shx; Shy(1:L-1)];
     e(n) = y(n) - Sy(n); 
-    Ww = Ww + mu * e(n) * Shy; 
+
+    Ww = Ww + mu * e(n) * Shy;       %Weight update for the LMS step/learning rate. 
+                                     % This is the gradient descent part of the algo. 
+                                     %Higher system formula: w(n+1) = w(n) + mu*e(n)*X'n 
+                                     %This instance: w(n) = Ww; mu = mu;
+                                  
+                                   
 
 end 
 
