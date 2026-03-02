@@ -57,6 +57,20 @@ Shy = zeros(L, 1);
 
 % ** ALGORITHM **  
 
+% ┌─────────────────────────────────────────────────────┐
+% │                                                     │
+% │   x(n)  -> [ Adaptive Filter Ww ] -> Wy(n)          |
+% │                                                     │
+% │   Wy(n) -> [ Secondary Path Sw ] -> Sy(n)           │
+% │                                                     │
+% │   e(n) = y(n) - Sy(n)                               │
+% │                                                     │
+% │   x(n) -> [ Secondary Path Shw ] -> x'(n)           │
+% │                                                     │
+% │   Ww = Ww + mu * e(n) * x'(n)  ← weight update      |
+% │                                                     │
+% └─────────────────────────────────────────────────────┘
+
 for n = 1:length(y)                   %NOTE: ^T = Transpose for matrix, or ' (apostrophe is symbol for transpose in matlab)
     Wx = [x(n); Wx(1:L-1)];           %builds the input buffer, shifts x(n) into a length-L 
                                       % Vector: [x(n), x(n-1), ... x(n-L+1)^T]
@@ -67,17 +81,21 @@ for n = 1:length(y)                   %NOTE: ^T = Transpose for matrix, or ' (ap
 
     Sx = [Wy(n); Sx(1:length(Sx)-1)]; 
     Sy(n) = Sw'*Sx; 
+    e(n) = y(n) - Sy(n);             %typical error signal e(n) = d(n) - yhat(n) where Sy(n) is 
+                                     % the yhat(n) in this instance
+                                     
     Shx = [x(n); Shx(1:L-1)];
     Shy = [Shw'*Shx; Shy(1:L-1)];
-    e(n) = y(n) - Sy(n); 
+
 
     Ww = Ww + mu * e(n) * Shy;       %Weight update for the LMS step/learning rate. 
                                      % This is the gradient descent part of the algo. 
                                      %Higher system formula: w(n+1) = w(n) + mu*e(n)*X'n 
-                                     %This instance: w(n) = Ww; mu = mu;
+                                     %This instance: 
+                                     % w(n) = Ww; 
+                                     % mu = mu;
+                                     %Shy = X'(n) 
                                   
-                                   
-
 end 
 
 yhat = Sy; 
