@@ -26,15 +26,22 @@ or usage for everyday life, like being in the office.
 <img src = "assets/speedANC.png" width ="300"> 
 
 
-ANC is something we use without knowing (think of airpod/headphone noise cancellation). 
-By leveraging adaptive signal processing algorithm, ANC, is implemented on a high performance 
-digital signals processing(DSP) board. 
+ANC is a technique that uses destructive interface to cancel out unwanted noise signals. It's specifically a **ADAPTIVE** learning algorithm that is employed to quickly learn the characteristics of the unwanted signal in real time. 
+
+
 
 ---
 ---
 ---
 
 ## Project Overview: 
+
+Table of Contents: 
+LMS Background 
+LMS Math 
+FxLMS vs LMS 
+FxLMS System Overview 
+FxLMS Results 
 
 This github is used as a personal documentation to help explain the math and usage of the 
 Least Mean Squares(LMS) Algorithm used as well as later diving into different algorithms simulated in Matlab 2024A. 
@@ -44,5 +51,11 @@ simulated in Matlab as well.
 
 The second portion would be the attempt at the hardware for ANC, and will be linked at the top of the ReadMe file (if i get to it). 
 
-Now lets dive into the math. 
+Now lets dive into the fun. 
+
+## LMS Background 
+
+The 
+
+
 
