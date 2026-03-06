@@ -1,4 +1,4 @@
-# **Active Noise Cancellation 🔇 ** 
+# ** Active Noise Cancellation 🔇 ** 
 
 ---
 ---
@@ -72,7 +72,7 @@ It specifically uses **STOCHASTIC GRADIENT DESCENT** method to efficiently adapt
 
 Stochoastic means that the results is randomly determined, aka having a random probability distribution pattern that is not able to be predicted precisely. Think of the stock market, weather patterns, and traffic congestions. 
 
-<img src = "assets/stonksMeme.png" width ="300"> 
+<img src = "assets/stonksMeme.jpg" width ="300"> 
 
 
 The opposite of stochoastic is deterministic, meaning that every event, output, or action is strictly determined, leaving no room for chance or randomness. Think of calculators, traffic lights, etc. 
