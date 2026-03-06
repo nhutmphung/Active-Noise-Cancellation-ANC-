@@ -47,8 +47,8 @@ Below is a visual representation of how they combine
 
 ## Project Overview: 
 
-Table of Contents: 
-LMS Background 
+## Table of Contents: 
+*[LMS Background] (#LMS Background) 
 LMS Math 
 FxLMS vs LMS 
 FxLMS System Overview 
