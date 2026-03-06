@@ -7,13 +7,13 @@ Over the past decade, many companies have developed practical applications to
 block out noise pollutions for different scenarios in everyday life. Whether 
 it's specific to a system such as a car cabin
 
-<img src = "assets/carANC.png" width ="500"> 
+<img src = "assets/carANC.png" width ="300"> 
 
 a cockpit in an aircraft
-<img src = "assets/cockpitANC.png" width ="500"> 
+<img src = "assets/cockpitANC.png" width ="300"> 
 
 or usage for everyday life, like being in the office.
-<img src = "assets/speedANC.png" width ="500"> 
+<img src = "assets/speedANC.png" width ="300"> 
 
 
 ANC is something we use without knowing (think of airpod/headphone noise cancellation). 
