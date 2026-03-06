@@ -28,6 +28,17 @@ or usage for everyday life, like being in the office.
 
 ANC is a technique that uses destructive interface to cancel out unwanted noise signals. It's specifically a **ADAPTIVE** learning algorithm that is employed to quickly learn the characteristics of the unwanted signal in real time. 
 
+Below is a picture of how ANC works 
+
+<img src = "assets/ANCCancel.png" width ="300"> 
+
+
+
+Below is a visual representation of how they combine 
+
+![ANC Filter Animation](assets/gojoPurple.gif)
+ 
+
 
 
 ---
