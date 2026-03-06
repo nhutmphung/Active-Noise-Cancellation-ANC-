@@ -1,4 +1,4 @@
-# **Active Noise Cancellation using Filtered Adaptive Algorithm** 
+# **Active Noise Cancellation 🔇 ** 
 
 ---
 ---
@@ -47,7 +47,7 @@ Below is a visual representation of how they combine
 
 ## Project Overview: 
 
-## Table of Contents: 
+## Table of Contents 📖 : 
 * [LMS Background] (#LMS Background) 
 * [LMS Math] LMS Math 
 * [FxLMS vs LMS] FxLMS vs LMS 
