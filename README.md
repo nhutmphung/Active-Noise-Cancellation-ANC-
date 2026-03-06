@@ -48,11 +48,11 @@ Below is a visual representation of how they combine
 ## Project Overview: 
 
 ## Table of Contents: 
-*[LMS Background] (#LMS Background) 
-LMS Math 
-FxLMS vs LMS 
-FxLMS System Overview 
-FxLMS Results 
+* [LMS Background] (#LMS Background) 
+* [LMS Math] LMS Math 
+* [FxLMS vs LMS] FxLMS vs LMS 
+* [FxLMS System Overview] FxLMS System Overview 
+* [FxLMS Results] FxLMS Results 
 
 This github is used as a personal documentation to help explain the math and usage of the 
 Least Mean Squares(LMS) Algorithm used as well as later diving into different algorithms simulated in Matlab 2024A. 
