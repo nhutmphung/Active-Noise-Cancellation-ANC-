@@ -9,10 +9,18 @@ it's specific to a system such as a car cabin
 
 <img src = "assets/carANC.png" width ="300"> 
 
+
+
 a cockpit in an aircraft
+
 <img src = "assets/cockpitANC.png" width ="300"> 
 
+
+
+
+
 or usage for everyday life, like being in the office.
+
 <img src = "assets/speedANC.png" width ="300"> 
 
 
