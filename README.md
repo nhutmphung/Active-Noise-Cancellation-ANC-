@@ -1,7 +1,7 @@
-Active Noise Cancellation using Filtered Adaptive Algorithm 
+#Active Noise Cancellation using Filtered Adaptive Algorithm 
 
 
-A brief background on Active Noise Cancellation (ANC): 
+##A brief background on Active Noise Cancellation (ANC): 
 
 Over the past decade, many companies have developed practical applications to 
 block out noise pollutions for different scenarios in everyday life. Whether 
@@ -10,7 +10,7 @@ usage for everyday life, ANC is something we use without knowing (think of airpo
 By leveraging adaptive signal processing algorithm, ANC, is implemented on a high performance 
 digital signals processing(DSP) board. 
 
-Project Overview: 
+##Project Overview: 
 
 This github is used as a personal documentation to help explain the math and usage of the 
 Least Mean Squares(LMS) Algorithm used as well as later diving into different algorithms simulated in Matlab 2024A. 
@@ -18,5 +18,7 @@ Least Mean Squares(LMS) Algorithm used as well as later diving into different al
 This first portion will just be simulation in Matlab 2024A for post processing data. The noise generated will be 
 simulated in Matlab as well. 
 
-The second portion would be the attempt at the hardware for ANC, and will be linked at the top of the ReadMe file (if i get to it) 
+The second portion would be the attempt at the hardware for ANC, and will be linked at the top of the ReadMe file (if i get to it). 
+
+Now lets dive into the math. 
 
