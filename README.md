@@ -66,7 +66,13 @@ Now lets dive into the fun.
 
 ## LMS Background 
 
-The 
+The Least Mean Squares algorithm is a widely used **adaptive** filter technique that updates filter coefficients iteratively to minimize the **MEAN SQUARE ERROR** between a desired signal and actual output. 
+
+It specifically uses **STOCHASTIC GRADIENT DESCENT** method to efficiently adapt to real-time signals, making it ideal for this specific application. 
+
+Stochoastic means that the results is randomly determined, aka having a random probability distribution pattern that is not able to be predicted precisely. Think of the stock market, weather patterns, and traffic congestions. 
+
+The opposite of stochoastic is deterministic, meaning that every event, output, or action is strictly determined, leaving no room for chance or randomness. Think of calculators, traffic lights, etc. 
 
 
 
