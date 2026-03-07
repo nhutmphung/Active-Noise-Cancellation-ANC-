@@ -1,8 +1,6 @@
 # ** Active Noise Cancellation 🔇 ** 
 
 ---
----
----
 ## A brief background on Active Noise Cancellation (ANC): 
 
 Over the past decade, many companies have developed practical applications to 
@@ -27,6 +25,11 @@ or usage for everyday life, like being in the office.
 
 
 ANC is a technique that uses destructive interface to cancel out unwanted noise signals. It's specifically a **ADAPTIVE** learning algorithm that is employed to quickly learn the characteristics of the unwanted signal in real time. 
+
+Below is a picture of the high level diagram on how ANC flows. 
+
+<img src = "assets/ANCSystemDiagram1.png" width ="300"> 
+
 
 Below is a picture of how ANC works 
 
@@ -78,6 +81,12 @@ Stochoastic means that the results is randomly determined, aka having a random p
 The opposite of stochoastic is deterministic, meaning that every event, output, or action is strictly determined, leaving no room for chance or randomness. Think of calculators, traffic lights, etc. 
 
 <img src = "assets/67Calc.png" width ="300"> 
+
+Below is the diagram depiction of the LMS gradient descent. 
+
+<img src = "assets/LMSDiagram.png" width ="300"> 
+
+
 
 
 
