@@ -28,7 +28,7 @@ ANC is a technique that uses destructive interface to cancel out unwanted noise 
 
 Below is a picture of the high level diagram on how ANC flows. 
 
-<img src = "assets/ANCSystemDiagram1.png" width ="300"> 
+<img src = "assets/ANCSystemDiagram1.png" width ="500"> 
 
 
 Below is a picture of how ANC works 
@@ -84,7 +84,7 @@ The opposite of stochoastic is deterministic, meaning that every event, output, 
 
 Below is the diagram depiction of the LMS gradient descent. 
 
-<img src = "assets/LMSDiagram.png" width ="300"> 
+<img src = "assets/LMSDiagram.png" width ="500"> 
 
 
 
