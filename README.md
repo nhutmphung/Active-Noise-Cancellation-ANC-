@@ -85,7 +85,7 @@ Below is the diagram depiction of the LMS gradient descent.
 
 The main equations that determines the LMS algorithm is:
 
-<img src = "assets/e(n)_equation.png" width ="200"> 
+<img src = "assets/e(n)_equation.png" width ="400"> 
 **e(n)** is the error you are trying to minimize in your system, 
 
 **w(n + 1)** is the weight update equation that adjusts better and gets closer after every sample/input.
