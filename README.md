@@ -94,6 +94,14 @@ you might see that e(n) = d(n) - y(n), and in this case, y(n) = $w^T$(n)*x(n)
 
 so basically, e(n) = d(n) - y(n) = d(n) - $w^T$(n)*x(n)
 
+### Quick before background again for the variables in this: 
+-e(n) = error signal you are trying to minimize 
+-d(n) = the noise you are wanting to cancel out 
+-y(n) or $w^T$(n)*x(n) = the anti-noise you are trying to generate to cancel out d(n)
+-u = the learning rate you give to the system 
+-$w^T$(n) (or sometimes just w(n)) = the weight of the sysytem (think of it as a volume adjuster of how much you want to jump/change) 
+-w(n++1) = the weight update equation that adjusts to get closer after every sample
+
 
 
 
