@@ -99,7 +99,7 @@ so basically, e(n) = d(n) - y(n) = d(n) - $w^T$(n)*x(n)
 
 -**d(n)** = the noise you are wanting to cancel out 
 
--**y(n)** or **$w^T$(n)*x(n)** = the anti-noise you are trying to generate to cancel out d(n)
+-**y(n)** or $w^T$(n)*x(n) = the anti-noise you are trying to generate to cancel out d(n)
 
 -**u** = the learning rate you give to the system 
 
