@@ -43,14 +43,11 @@ Below is a visual representation of how they combine
  
 
 
-
----
----
 ---
 
 ## Project Overview: 
 
-## Table of Contents 📖 : 
+### Table of Contents 📖 : 
 * [LMS Background] (#LMS Background) 
 * [LMS Math] LMS Math 
 * [FxLMS vs LMS] FxLMS vs LMS 
@@ -85,6 +82,14 @@ The opposite of stochoastic is deterministic, meaning that every event, output, 
 Below is the diagram depiction of the LMS gradient descent. 
 
 <img src = "assets/LMSDiagram.png" width ="500"> 
+
+The main equations that determines the LMS algorithm is:
+
+<img src = "assets/e9n0 equation.png" width ="200"> 
+*e(n)* is the error you are trying to minimize in your system, 
+*w(n + 1)* is the weight update equation that adjusts better and gets closer after every sample/input.
+
+
 
 
 
