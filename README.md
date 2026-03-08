@@ -90,7 +90,9 @@ The main equations that determines the LMS algorithm is:
 
 **w(n + 1)** is the weight update equation that adjusts better and gets closer after every sample/input.
 
-you might see that e(n) = d(n) - y(n), and in this case, y(n) is $w^T$(n)*x(n)
+you might see that e(n) = d(n) - y(n), and in this case, y(n) = $w^T$(n)*x(n)
+
+so basically, e(n) = d(n) - y(n) = d(n) - $w^T$(n)*x(n)
 
 
 
