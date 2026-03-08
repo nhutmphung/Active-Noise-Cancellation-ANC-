@@ -103,7 +103,7 @@ so basically, e(n) = d(n) - y(n) = d(n) - $w^T$(n)*x(n)
 
 -u = the learning rate you give to the system 
 
--$w^T$(n) (or sometimes just w(n)) = the weight of the sysytem (think of it as a volume adjuster of how much you want to jump/change) 
+- $w^T$(n) (or sometimes just w(n)) = the weight of the sysytem (think of it as a volume adjuster of how much you want to jump/change) 
 
 -w(n++1) = the weight update equation that adjusts to get closer after every sample
 
