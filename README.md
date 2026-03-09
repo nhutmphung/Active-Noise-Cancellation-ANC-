@@ -37,7 +37,8 @@ Below is a picture of how ANC works
 
 <img src = "assets/ANCCancel.png" width ="300"> 
 
-
+You have a noise that you want to cancel out (red squiggly line) and you have a anti-noise that you generate from your system (blue squiggly line) 
+When these two lines(sine waves) combines, their output should theoretically combine and make a new squiggly line(wave form) and that is our noise cancellation sound wave. 
 
 Below is a visual representation of how they combine 
 
