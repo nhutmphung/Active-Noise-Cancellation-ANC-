@@ -119,7 +119,12 @@ The main math operation used in ANC is Convolution. Convolution is used to find 
 very widely in signals processing, image processing, and machine learning. 
 
 Below are the two main formulas of convolution. One is used with a continuous signal, and the other one is used for a discrete signal. 
-<img src = "assets/carANC.png" width ="300"> 
+<img src = "assets/convolution_formula.png" width ="300"> 
+
+
+The one main formula template we are going to be using is the one on the bottom. The image below is the ANC version of convolutin to find the anti-noise.
+<img src = "assets/anc_convolution.png" width ="300"> 
+
 
 
 
