@@ -115,6 +115,12 @@ Now that the background for LMS is out of the way, we can get into the math behi
 
 ## ANC Math
 
+The main math operation used in ANC is Convolution. Convolution is used to find y[n], AKA the **anti-noise** to cancel out the input noise. Convolution is used 
+very widely in signals processing, image processing, and machine learning. 
+
+Below are the two main formulas of convolution. One is used with a continuous signal, and the other one is used for a discrete signal. 
+<img src = "assets/carANC.png" width ="300"> 
+
 
 
 
