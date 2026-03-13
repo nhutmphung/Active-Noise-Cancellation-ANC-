@@ -111,6 +111,11 @@ so basically, e(n) = d(n) - y(n) = d(n) - $w^T$(n)*x(n)
 -**w(n++1)** = the weight update equation that adjusts to get closer after every sample
 
 
+Now that the background for LMS is out of the way, we can get into the math behind it. 
+
+## ANC Math
+
+
 
 
 
